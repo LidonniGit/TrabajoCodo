@@ -50,6 +50,7 @@ body{
 }
 
 
+
 /* CARGO EL ESTILO Y IMAGEN DE REGISTRACION SECCION */
 
 .bodyRegistrarse{
@@ -349,4 +350,25 @@ body{
     }
 }
 
+/* ESTILO PARA API */
 
+.pie {
+	position: relative;
+	bottom: 0;
+	background: #100a1f;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+	padding: 5px;
+}
+
+.contenedor {
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto 0 auto;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	-ms-grid-columns: repeat(3, 1fr);
+	gap: 20px;
+}
